@@ -1,3 +1,8 @@
+https://github.com/sdf8057/luci.git
+
+https://github.com/immortalwrt/luci.git
+
+
 # OpenWrt luci feed
 
 ## Description
