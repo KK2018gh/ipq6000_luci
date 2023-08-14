@@ -11,8 +11,9 @@ m.description = translate("The lightweight version of Multi Stream daemon (msd) 
 m:section(SimpleSection).template  = "msd_lite/msd_lite_status"
 
 s = m:section(TypedSection, "instance")
-s.addremove = false
-s.anonymous = true
+s.addremove = true
+s.anonymous = false
+s.addbtntitle = translate("Add instance")
 
 o = s:option(Flag, "enabled", translate("Enable"))
 o.default = o.disabled
